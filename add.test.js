@@ -1,5 +1,5 @@
 const { test, expect, describe, it } = require("@jest/globals");
-const { add, sub } = require("./add");
+const { add, sub } = require("./function");
 
 describe("add test", () => {
   test("2+5=7", () => {
