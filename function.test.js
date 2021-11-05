@@ -1,5 +1,5 @@
 const { test, expect, describe, it } = require("@jest/globals");
-const { add, sub } = require("./function");
+const { add, sub, sayHello } = require("./function");
 
 describe("add test", () => {
   test("2+5=7", () => {
@@ -19,4 +19,8 @@ describe("sub test", () => {
   it("50-30=20", () => {
     expect(sub(50, 30)).toBe(20);
   });
+});
+
+test("hello boostcamp", () => {
+  expect(sayHello("boostcamp")).toBe("hello boostcampp");
 });
