@@ -1,8 +1,8 @@
 const { add, sub } = require("./function");
 
 describe("add test", () => {
-  test("5 + 2 = 7", () => {
-    expect(add(10, 2)).toBe(12);
+  test("10 + 15 = 25", () => {
+    expect(add(10, 15)).toBe(25);
   });
 });
 
