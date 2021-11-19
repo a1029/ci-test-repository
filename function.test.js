@@ -8,6 +8,6 @@ describe("add test", () => {
 
 describe("sub test", () => {
   it("5 - 2 = 3", () => {
-    expect(sub(5, 2)).toBe(30000);
+    expect(sub(5, 2)).toBe(3000);
   });
 });
