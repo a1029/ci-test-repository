@@ -2,7 +2,7 @@ const { add, sub } = require("./function");
 
 describe("add test", () => {
   test("10 + 15 = 25", () => {
-    expect(add(10, 15)).toBe(500000);
+    expect(add(10, 15)).toBe(25);
   });
 });
 
